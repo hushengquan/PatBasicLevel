@@ -1,7 +1,7 @@
 /*
 **@Time       : 2019-10-22
 **@Author     : HuShengQuan
-**@File       : 1001.go
+**@File       : 1001.c
 **@Software   : vim
 **@website    : https://pintia.cn/problem-sets/994805260223102976/problems/994805325918486528
 **@type       : pat practice
