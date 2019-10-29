@@ -1,33 +1,27 @@
 """
 ***@Time    : 2019-10-28
-***@Author  : HuShengQuan
+***@Author  : hushengquan
 ***@File    : 1007.py
 ***@Software: vim
 ***@type    : pat practice
 """
-import math
+N = int(input())
 
-def isSu(num):
-    for i in range(2, int(math.sqrt(num)) + 1):
-        if num % i == 0:
-            return False
+flag = [1] * (N + 2)
+flag[0] = flag[1] = 0
+result = []
 
-    return True
+for i in range(2, N + 1):
+    if flag[i]:
+        result.append(i)
+        p = 2
+        while i * p <= N:
+            flag[i * p] = 0
+            p += 1
 
-def main():
-    num = int(input())
-    numList = []
-    count = 0
+count = 0
+for i in range(len(result) - 1):
+    if (result[i + 1] - result[i]) == 2:
+        count += 1
 
-    for i in range(2, num + 1):
-        if isSu(i):
-            numList.append(i)
-
-    for i in range(2, len(numList)):
-        if numList[i] - numList[i - 1] == 2:
-            count += 1
-
-    print(count)
-
-if __name__ == "__main__":
-    main()
+print(count)

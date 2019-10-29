@@ -1,11 +1,10 @@
-/*
-**@Time       : 2019-10-28
-**@Author     : HuShengQuan
-**@File       : 1007.c
-**@Software   : vim
-**@type       : pat practice
-*/
-
+/***********************************************
+ > @Time       : 2019-10-28
+ > @Author     : hushengquan
+ > @File       : 1007.c
+ > @Software   : vim
+ > @type       : pat practice
+************************************************/
 #include<stdio.h>
 #include<math.h>
 

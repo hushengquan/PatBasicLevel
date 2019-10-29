@@ -1,11 +1,10 @@
-/*
-**@Time       : 2019-10-27
-**@Author     : HuShengQuan
-**@File       : 1006.c
-**@Software   : vim
-**@type       : pat practice
-*/
-
+/***********************************************
+ > @Time       : 2019-10-27
+ > @Author     : hushengquan
+ > @File       : 1006.c
+ > @Software   : vim
+ > @type       : pat practice
+************************************************/
 #include <stdio.h>
 
 int main() {
