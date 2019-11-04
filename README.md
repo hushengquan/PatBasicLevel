@@ -6,7 +6,7 @@ __浙江大学计算机程序设计能力考试（Programming Ability Test，简
 
 # 传送门
 | 题目序号        | 题目详情   |  解题代码  |  笔记  |
-| --------   | -----:  | :----:  |
+| --------   | -----:  | :----:  | :----: |
 | 1001 害死人不偿命的(3n+1)猜想      |  [1001传送门](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1001/1001.md)  |   [c](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1001/1001.c)/[c++](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1001/1001.cpp)/[golang](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1001/1001.go)/[python3](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1001/1001.py)    | |
 | 1002 写出这个数        |    [1002传送门](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1002/1002.md)   |    [c](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1002/1002.c)/[c++](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1002/1002.cpp)/[golang](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1002/1002.go)/[python3](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1002/1002.py)    |  __to_string()__ |
 | 1003 我要通过！        |    [1003传送门](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1003/1003.md)   |    [c](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1003/1003.c)/[c++](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1003/1003.cpp)/[golang](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1003/1003.go)/[python3](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1003/1003.py)    | __map__ |
