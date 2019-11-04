@@ -1,40 +1,38 @@
 #include <iostream>
-#include <cctype>
-#include <string>
+#include <cstdio>
+#include <string.h>
 using namespace std;
 
 int main() {
     int N, count = 0;
-    double average = 0.0;
-    cin >> N; 
+    char a[50], b[50];
+    double temp, sum = 0.0;
+    cin >> N;
 
     for (int i = 0; i < N; i++) {
-        string str;
-        cin >> str;
-        int flag = 0, nums = 0;
-        if (stoi(str) < -1000 || stoi(str) > 1000) flag = 1;
-        for (int j = 0; j < str.length(); j++) {
-            if (str[i] != '-' && str[i] != '.' && !isdigit(str[i])) {
+        scanf("%s", a);
+        sscanf(a, "%lf", &temp);
+        sprintf(b, "%.2f", temp);
+
+        int flag = 0;
+        for (int i = 0; i < strlen(a); i++) {
+            if (a[i] != b[i]) {
                 flag = 1;
                 break;
             }
-            if (str[i] == '.') nums++;
-            if (nums > 1) flag = 1;
         }
 
-        if (flag == 0) {
-            average += stoi(str);
-            count++;
+        if (flag || temp < -1000 || temp > 1000) {
+            printf("ERROR: %s is not a legal number\n", a);
+            continue;
         } else {
-            cout << "ERROR: " << str << " is not a legal number" << endl;
+            sum += temp;
+            count++;
         }
     }
 
-    if (count == 0) {
-        printf("The average of 0 numbers is Undefined\n");
-    } else {
-        average /= count;
-        printf("The average of %d numbers is %.2f\n", count, average);
-    }
+    if (count == 1) printf("The average of 1 number is %.2f", sum);
+    else if (count > 1) printf("The average of %d numbers is %.2f", count, sum / count);
+    else printf("The average of 0 numbers is Undefined");
     return 0;
 }
