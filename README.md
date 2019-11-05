@@ -22,7 +22,11 @@ __浙江大学计算机程序设计能力考试（Programming Ability Test，简
 | 1013 数素数        |    [1013传送门](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1013/1013.md)   |    [c++](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1013/1013.cpp)    | |
 | 1014 福尔摩斯的约会         |    [1014传送门](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1014/1014.md)   |    [c++](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1014/1014.cpp)    | |
 | 1015 德才论         |    [1015传送门](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1015/1015.md)   |    [c++](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1015/1015.cpp)    | __结构体排序__ |
-
+| 1016 部分A+B         |    [1016传送门](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1016/1016.md)   |    [c++](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1016/1016.cpp)    |  |
+| 1017 A除以B         |    [1017传送门](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1017/1017.md)   |    [c++](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1017/1017.cpp)    |  |
+| 1018 锤子剪刀布         |    [1018传送门](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1018/1018.md)   |    [c++](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1018/1018.cpp)    |  |
+| 1019 数字黑洞         |    [1019传送门](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1019/1019.md)   |    [c++](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1019/1019.cpp)    | __stoi()函数__ |
+| 1020 月饼         |    [1020传送门](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1020/1020.md)   |    [c++](https://github.com/hushengquan/PatBasicLevel/blob/master/code/1020/1020.cpp)    |  |
 
 ## 有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
@@ -34,4 +38,3 @@ __浙江大学计算机程序设计能力考试（Programming Ability Test，简
 ## 关于作者
 
 一位在校大三学生，热爱技术，准备考研
-
