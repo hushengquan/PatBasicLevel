@@ -3,6 +3,8 @@
 __大家应该都会玩“锤子剪刀布”的游戏：两人同时给出手势，胜负规则如图所示：__
 
 [![](https://images.ptausercontent.com/724da598-b37f-4f1f-99b4-71459654ce3a.jpg)](https://images.ptausercontent.com/724da598-b37f-4f1f-99b4-71459654ce3a.jpg "markdown")
+
+
 __现给出两人的交锋记录，请统计双方的胜、平、负次数，并且给出双方分别出什么手势的胜算最大。__
 # 输入格式：
 
