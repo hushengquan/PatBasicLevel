@@ -29,7 +29,7 @@ cool@gplt <br />
 try again <br />
 \#
 
-#输出样例 2：
+# 输出样例 2：
 > Wrong password: coolman@gplt <br />
 Wrong password: coollady@gplt <br />
 Welcome in <br />
